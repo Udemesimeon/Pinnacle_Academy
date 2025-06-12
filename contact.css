@@ -1,0 +1,147 @@
+*{padding: 0;margin: 0;}
+body{
+    background-color: bisque;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.navbar h2{
+  font-size: xx-large;
+color: midnightblue;
+padding-right: 400px 
+}
+.navbar a{
+     text-decoration: none;
+    color: midnightblue;
+    padding: 10px;
+    font-weight: bolder;
+}
+.navbar a:hover{
+    background-color: mediumpurple;
+    border-radius: 5px;
+}
+.nav2 a{
+    background-color: cornflowerblue;
+    margin-inline-start: 20px;
+    border-radius: 10px;
+    border: 2px solid midnightblue;
+}
+
+.container1{
+    text-align: center;
+    color: midnightblue;
+    margin-top: 4%;
+}
+.container1 h1{
+    font-size:60px;
+    margin-bottom: 20px; 
+}
+.container1 a{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px;
+}
+.container2{
+    color: midnightblue;
+    font-size: larger;
+}
+.container2 h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 3%;
+}
+.container2 div{
+  margin: 20px;
+}
+.container2 iframe{
+  width: 100%;
+  height: 80vh;
+  margin-bottom: -10px;
+}
+.container2 a{
+    text-decoration: none;
+}
+footer{
+  background-color: thistle;
+  color: midnightblue;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.container5{
+  display: flex;
+  justify-content: space-around;
+}
+.container5 a:hover{
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 0px;
+    border: 2px solid blue;
+ }
+.container5 a{
+  text-decoration: none;
+  font-size: larger;
+}
+.icons a{
+padding:5px;
+}
+.icons i{
+font-size:30px;
+}
+ .buttom{
+  margin-top: 25px;
+  margin-left: 30%;
+}
+
+@media screen and (max-width:768px)
+{
+  *{margin: 0;padding: 0;}
+   .navbar{
+     display:grid;
+     row-gap: 25px;
+    font-size: 12px;
+    padding-top: 15px;
+  margin-left: -40px;
+   }
+   .nav2 {
+    margin-left: -13px;
+   }
+   .navbar h2{
+    padding-right: 0;
+    padding-left: 10px;
+   }
+   .container1 h1{
+    font-size:40px;
+   }
+   .container1 a{
+    padding: 5px;
+   }
+   .container2 h1{
+    font-size: 25px;
+    margin-top: 15px;
+   }
+   footer{
+  padding-left: 10px;
+}
+.AB{
+height: 630px;
+}
+.container5{
+  display: block;
+}
+.container5 h2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.icons i{
+font-size: 20px;
+}
+.buttom{
+  font-size: medium;
+   margin-top: 10px;
+  margin-left: 0%;
+}
+}

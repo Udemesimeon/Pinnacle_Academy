@@ -1,0 +1,211 @@
+*{margin: 0;padding: 0;}
+
+body{
+    background-color: bisque;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.navbar h2{
+  font-size: xx-large;
+color: midnightblue;
+padding-right: 400px 
+}
+.navbar a{
+     text-decoration: none;
+    color: midnightblue;
+    padding: 10px;
+    font-weight: bolder;
+}
+.navbar a:hover{
+    background-color: mediumpurple;
+    border-radius: 5px;
+ }
+.nav2 a{
+    background-color: cornflowerblue;
+    margin-inline-start: 20px;
+    border-radius: 10px;
+    border: 2px solid midnightblue;
+}
+
+.heading{
+    color: midnightblue;
+    margin-left: 30px;
+    font-size: larger;
+}
+
+form{
+ width: 70%;
+color: midnightblue;
+font-size: larger;
+}
+ .AA{
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+}
+
+ .container1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.container3{
+     display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.declaration {
+    text-align: center;
+    width: 82%;
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.submit{
+    padding: 15px;
+    color: cornflowerblue;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: midnightblue;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 5px 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40%;
+}
+.submit:hover{
+  color: midnightblue;
+  background-color: mediumpurple;
+}
+footer{
+  background-color: thistle;
+  color: midnightblue;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.container5{
+  display: flex;
+  justify-content: space-around;
+}
+.container5 h2{
+  margin: 0px;
+}
+.container5 a:hover{
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 0px;
+    border: 2px solid blue;
+ }
+.container5 a{
+  text-decoration: none;
+  font-size: larger;
+}
+.icons a{
+padding:5px;
+}
+.icons i{
+font-size:30px;
+}
+ .buttom{
+  margin-top: 25px;
+  margin-left: 30%;
+}
+
+@media screen and (max-width:768px)
+{
+  *{margin: 0;padding: 0;}
+   .navbar{
+     display:grid;
+     row-gap: 25px;
+    font-size: 12px;
+    padding-top: 15px;
+  margin-left: -40px;
+   }
+   .nav2 {
+    margin-left: -13px;
+   }
+   .navbar h2{
+    padding-right: 0;
+    padding-left: 10px;
+   }
+   .heading h1{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: xx-large;
+}
+form{
+ width: 70%;
+color: midnightblue;
+font-size: larger;
+}
+ .AA{
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+}
+ .container1{
+    display: block;
+    margin: 10px;
+}
+.container2{
+    display: block;
+    margin: 10px;
+}
+.container3{
+     display: block;
+    margin: 10px;
+}
+.declaration {
+    text-align: start;
+    margin-left: 10px;
+    width: 95%;
+}
+h2{
+    font-size: x-large;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+ footer{
+  padding-left: 10px;
+}
+.AB{
+height: 630px;
+}
+.container5{
+  display: block;
+}
+.container5 h2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.icons i{
+font-size: 20px;
+}
+.buttom{
+  font-size: medium;
+   margin-top: 10px;
+  margin-left: 0%;
+}
+}

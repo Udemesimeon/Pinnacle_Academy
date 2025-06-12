@@ -1,0 +1,210 @@
+*{margin: 0;padding: 0;}
+
+body{
+    background-color: bisque;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.navbar h2{
+  font-size: xx-large;
+color: midnightblue;
+padding-right: 400px 
+}
+.navbar a{
+     text-decoration: none;
+    color: midnightblue;
+    padding: 10px;
+    font-weight: bolder;
+}
+ .navbar a:hover{
+    background-color: mediumpurple;
+    border-radius: 5px;
+ }
+.nav2 a{
+    background-color: cornflowerblue;
+    margin-inline-start: 20px;
+    border-radius: 10px;
+    border: 2px solid midnightblue;
+}
+.parent{
+    display: flex;
+    justify-content:space-evenly;
+}
+.image{
+    width: 25%;
+    height: 57vh;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: auto 20% auto 20%;
+    grid-template-rows:50% 50% 70% 70%;
+    gap: 10px 15px;
+    margin: 30px;
+
+}
+.container3 img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 10px;
+     box-shadow: 0px 2px 5px;
+    
+}
+.container1 h1{
+    font-size: 50px;
+    color: midnightblue;
+
+}
+.container1 p{
+    font-size: xx-large;
+    margin-top: 10px;
+    font-style: italic;
+    color: midnightblue;
+}
+.container2{
+    font-size: x-large;
+    color: midnightblue;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px 5px 10px;
+}
+.container2 b{
+    font-size: xx-large;
+}
+button{
+    background-color: cornflowerblue;
+    color: midnightblue;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid midnightblue;
+}
+button a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: midnightblue;
+}
+footer{
+  background-color: thistle;
+  color: midnightblue;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.container5{
+  display: flex;
+  justify-content: space-around;
+}
+.container5 a:hover{
+    background-color: mediumpurple;
+    border-radius: 5px;
+    padding: 0px;
+    border: 2px solid blue;
+ }
+.container5 a{
+  text-decoration: none;
+  font-size: larger;
+}
+.icons a{
+padding:5px;
+}
+.icons i{
+font-size:30px;
+}
+ .buttom{
+  margin-top: 25px;
+  margin-left: 30%;
+}
+
+@media screen and (max-width:768px){
+
+ *{margin: 0;padding: 0;}
+   .navbar{
+     display :grid;
+     row-gap: 25px;
+    font-size: 12px;
+    padding-top: 15px;
+  margin-left: -40px;
+   }
+   .nav2 {
+    margin-left: -13px;
+   }
+   .navbar h2{
+    padding-right: 0;
+    padding-left: 10px;
+   }
+   .parent{
+    display: block;
+   }
+   .container1 h1{
+    font-size: 35px;
+    text-align: center;
+}
+.container1 p{
+    font-size: x-large;
+    margin-left: 10px;
+}
+.container2{
+ width: 90%;
+ margin-left: 15px;
+ padding-left: 10px;
+}
+button{
+    margin-left: 25%;
+}
+   .image{
+    width: 90%;
+    height: 50vh;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px;
+}
+.container3{
+    display: block;
+    width: 90%;
+    margin: 20px;
+}
+.container3 img{
+    margin-bottom: 20px;
+}
+footer{
+  padding-left: 10px;
+}
+.AB{
+height: 630px;
+}
+.container5{
+  display: block;
+}
+.container5 h2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.icons i{
+font-size: 20px;
+}
+.buttom{
+  font-size: medium;
+   margin-top: 10px;
+  margin-left: 0%;
+}
+}
