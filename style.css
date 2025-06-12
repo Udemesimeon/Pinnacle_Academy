@@ -197,11 +197,12 @@ font-size:30px;
      display :grid;
      row-gap: 25px;
     font-size: 12px;
-    padding-top: 15px;
-  margin-left: -25px;
+    padding-top: 10px;
+  margin-left: 0px;
    }
-   .nav2 {
-    margin-left: -13px;
+   .navbar a{
+    width: 100%;
+    padding: ;
    }
    .navbar h2{
     padding-right: 0;
