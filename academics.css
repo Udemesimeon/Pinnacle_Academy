@@ -1,34 +1,36 @@
-*{margin: 0;padding: 0;}
-
-body{
-    background-color: bisque;
+*{margin: 0;
+    padding: 0;
+  font-family: "Roboto";
 }
-.navbar{
+
+header{
+  background-color: #061636;
+}
+ .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
-    padding-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 20px;
 }
 
 .navbar h2{
   font-size: xx-large;
-color: midnightblue;
+color: cornflowerblue;
 padding-right: 400px 
 }
 .navbar a{
      text-decoration: none;
-    color: midnightblue;
+    color: white;
     padding: 10px;
     font-weight: bolder;
 }
- .navbar a:hover{
-    background-color: mediumpurple;
+.navbar a:hover{
+  color:midnightblue;
     border-radius: 5px;
  }
 .nav2 a{
-    background-color: cornflowerblue;
+    background-color: rgb(32, 77, 161);
     margin-inline-start: 20px;
     border-radius: 10px;
     border: 2px solid midnightblue;
@@ -61,20 +63,21 @@ padding-right: 400px
     
 }
 .container1 h1{
-    font-size: 50px;
+    font-size: 30px;
     color: midnightblue;
+    margin-top: 20px;
 
 }
 .container1 p{
-    font-size: xx-large;
+    font-size: x-large;
     margin-top: 10px;
     font-style: italic;
     color: midnightblue;
 }
 .container2{
     font-size: x-large;
-    color: midnightblue;
-    background-color: cornflowerblue;
+    color: white;
+    background-color: #061636;
     display: flex;
     justify-content: space-evenly;
     height: 20vh;
@@ -88,14 +91,14 @@ padding-right: 400px
     font-size: xx-large;
 }
 button{
-    background-color: cornflowerblue;
-    color: midnightblue;
+     background-color: rgb(32, 77, 161);
     padding: 20px;
     border-radius: 10px;
     border: 3px solid midnightblue;
 }
 button a{
     text-decoration: none;
+    color: white;
     font-size: larger;
     font-weight: bolder;
 }
@@ -103,8 +106,8 @@ button:hover{
     background-color: midnightblue;
 }
 footer{
-  background-color: thistle;
-  color: midnightblue;
+  background-color: #061636;
+  color: white;
   padding: 20px;
   padding-bottom: 0;
 }
@@ -113,14 +116,14 @@ footer{
   justify-content: space-around;
 }
 .container5 a:hover{
-    background-color: mediumpurple;
+    color: midnightblue;
     border-radius: 5px;
     padding: 0px;
-    border: 2px solid blue;
  }
 .container5 a{
   text-decoration: none;
   font-size: larger;
+  color: white;
 }
 .icons a{
 padding:5px;
@@ -129,9 +132,11 @@ padding:5px;
 font-size:30px;
 }
  .buttom{
+  font-size: 12px;
   margin-top: 25px;
   margin-left: 30%;
 }
+
 
 @media screen and (max-width:768px){
 
@@ -141,7 +146,7 @@ font-size:30px;
      row-gap: 25px;
     font-size: 12px;
     padding-top: 15px;
-  margin-left: -40px;
+  margin-left: -25px;
    }
    .nav2 {
     margin-left: -13px;
@@ -154,24 +159,26 @@ font-size:30px;
     display: block;
    }
    .container1 h1{
-    font-size: 35px;
+    font-size: 23px;
     text-align: center;
 }
 .container1 p{
-    font-size: x-large;
+    font-size: larger;
     margin-left: 10px;
 }
 .container2{
  width: 90%;
+ margin-top: 10px;
  margin-left: 15px;
  padding-left: 10px;
+ font-size: large;
 }
 button{
     margin-left: 25%;
 }
    .image{
-    width: 90%;
-    height: 50vh;
+    width: 85%;
+    height: 40vh;
     margin-top: 30px;
     margin-left: 20px;
     margin-bottom: 30px;
@@ -185,6 +192,7 @@ button{
 }
 .container3 img{
     margin-bottom: 20px;
+    height: 30vh;
 }
 footer{
   padding-left: 10px;
@@ -203,7 +211,8 @@ height: 630px;
 font-size: 20px;
 }
 .buttom{
-  font-size: medium;
+   font-size: 10px;
+  padding-bottom: 10px;
    margin-top: 10px;
   margin-left: 0%;
 }

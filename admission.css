@@ -1,47 +1,58 @@
-*{margin: 0;padding: 0;}
-
-body{
-    background-color: bisque;
+*{margin: 0;
+  padding: 0;
+  font-family: "Roboto";
 }
-.navbar{
+
+header{
+  background-color: #061636;
+}
+ .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .navbar h2{
   font-size: xx-large;
-color: midnightblue;
+color: cornflowerblue;
 padding-right: 400px 
 }
 .navbar a{
      text-decoration: none;
-    color: midnightblue;
+    color: white;
     padding: 10px;
     font-weight: bolder;
 }
 .navbar a:hover{
-    background-color: mediumpurple;
+  color:midnightblue;
     border-radius: 5px;
  }
 .nav2 a{
-    background-color: cornflowerblue;
+    background-color: rgb(32, 77, 161);
     margin-inline-start: 20px;
     border-radius: 10px;
     border: 2px solid midnightblue;
 }
-
 .heading{
     color: midnightblue;
     margin-left: 30px;
     font-size: larger;
+}
+.heading h1{
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 form{
  width: 70%;
 color: midnightblue;
 font-size: larger;
+}
+form h2{
+  font-size: 23px;
 }
  .AA{
     width: 350px;
@@ -79,10 +90,10 @@ h2{
 }
 .submit{
     padding: 15px;
-    color: cornflowerblue;
+    color: white;
     font-size: medium;
     font-weight: bolder;
-    background-color: midnightblue;
+    background-color: rgb(32, 77, 161);
     border-radius: 5px;
     border: none;
     box-shadow: 0px 5px 10px;
@@ -92,11 +103,11 @@ h2{
 }
 .submit:hover{
   color: midnightblue;
-  background-color: mediumpurple;
 }
+
 footer{
-  background-color: thistle;
-  color: midnightblue;
+  background-color: #061636;
+  color: white;
   padding: 20px;
   padding-bottom: 0;
 }
@@ -104,18 +115,15 @@ footer{
   display: flex;
   justify-content: space-around;
 }
-.container5 h2{
-  margin: 0px;
-}
 .container5 a:hover{
-    background-color: mediumpurple;
+    color: midnightblue;
     border-radius: 5px;
     padding: 0px;
-    border: 2px solid blue;
  }
 .container5 a{
   text-decoration: none;
   font-size: larger;
+  color: white;
 }
 .icons a{
 padding:5px;
@@ -124,6 +132,7 @@ padding:5px;
 font-size:30px;
 }
  .buttom{
+  font-size: 12px;
   margin-top: 25px;
   margin-left: 30%;
 }
@@ -135,14 +144,16 @@ font-size:30px;
      display:grid;
      row-gap: 25px;
     font-size: 12px;
-    padding-top: 15px;
-  margin-left: -40px;
+    padding-top: 0px;
+  margin-left: -25px;
    }
    .nav2 {
     margin-left: -13px;
+    margin-bottom:20px ;
    }
    .navbar h2{
     padding-right: 0;
+    margin-bottom: 0;
     padding-left: 10px;
    }
    .heading h1{
@@ -151,13 +162,16 @@ font-size:30px;
     margin-top: 0px;
     font-size: xx-large;
 }
+.heading p{
+  margin-left: -20px;
+}
 form{
- width: 70%;
+ width: 90%;
 color: midnightblue;
 font-size: larger;
 }
  .AA{
-    width: 350px;
+    width: 310px;
     height: 35px;
     padding-left: 10px;
     border: none;
@@ -181,6 +195,7 @@ font-size: larger;
     margin-left: 10px;
     width: 95%;
 }
+
 h2{
     font-size: x-large;
     margin-bottom: 10px;
@@ -204,7 +219,8 @@ height: 630px;
 font-size: 20px;
 }
 .buttom{
-  font-size: medium;
+   font-size: 10px;
+  padding-bottom: 10px;
    margin-top: 10px;
   margin-left: 0%;
 }

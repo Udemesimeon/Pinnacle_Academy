@@ -1,49 +1,53 @@
-*{padding: 0;margin: 0;}
-body{
-    background-color: bisque;
+*{padding: 0;
+  margin: 0;
+font-family: "Roboto";
 }
-.navbar{
+header{
+  background-color: #061636;
+}
+ .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
+    padding-top: 20px;
 }
+
 .navbar h2{
   font-size: xx-large;
-color: midnightblue;
+color: cornflowerblue;
 padding-right: 400px 
 }
 .navbar a{
      text-decoration: none;
-    color: midnightblue;
+    color: white;
     padding: 10px;
     font-weight: bolder;
 }
 .navbar a:hover{
-    background-color: mediumpurple;
+  color:midnightblue;
     border-radius: 5px;
-}
+ }
 .nav2 a{
-    background-color: cornflowerblue;
+    background-color: rgb(32, 77, 161);
     margin-inline-start: 20px;
     border-radius: 10px;
     border: 2px solid midnightblue;
 }
-
 .container1{
     text-align: center;
     color: midnightblue;
     margin-top: 4%;
 }
 .container1 h1{
-    font-size:60px;
+    font-size:30px;
     margin-bottom: 20px; 
 }
 .container1 a{
     text-decoration: none;
-    font-size: x-large;
+    font-size: larger;
     font-weight: bold;
-    padding: 20px;
+    padding: 10px;
 }
 .container2{
     color: midnightblue;
@@ -51,8 +55,8 @@ padding-right: 400px
 }
 .container2 h1{
     text-align: center;
-    font-size: 40px;
-    margin: 3%;
+    font-size: 25px;
+    margin-top: 1%;
 }
 .container2 div{
   margin: 20px;
@@ -66,8 +70,8 @@ padding-right: 400px
     text-decoration: none;
 }
 footer{
-  background-color: thistle;
-  color: midnightblue;
+  background-color: #061636;
+  color: white;
   padding: 20px;
   padding-bottom: 0;
 }
@@ -76,14 +80,14 @@ footer{
   justify-content: space-around;
 }
 .container5 a:hover{
-    background-color: mediumpurple;
+    color: midnightblue;
     border-radius: 5px;
     padding: 0px;
-    border: 2px solid blue;
  }
 .container5 a{
   text-decoration: none;
   font-size: larger;
+  color: white;
 }
 .icons a{
 padding:5px;
@@ -91,7 +95,9 @@ padding:5px;
 .icons i{
 font-size:30px;
 }
+
  .buttom{
+  font-size: 12px;
   margin-top: 25px;
   margin-left: 30%;
 }
@@ -104,7 +110,7 @@ font-size:30px;
      row-gap: 25px;
     font-size: 12px;
     padding-top: 15px;
-  margin-left: -40px;
+  margin-left: -25px;
    }
    .nav2 {
     margin-left: -13px;
@@ -114,14 +120,17 @@ font-size:30px;
     padding-left: 10px;
    }
    .container1 h1{
-    font-size:40px;
+    font-size:25px;
    }
    .container1 a{
     padding: 5px;
    }
    .container2 h1{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 15px;
+   }
+   .container2 h2{
+    font-size: 20px;
    }
    footer{
   padding-left: 10px;
@@ -140,7 +149,8 @@ height: 630px;
 font-size: 20px;
 }
 .buttom{
-  font-size: medium;
+   font-size: 10px;
+  padding-bottom: 10px;
    margin-top: 10px;
   margin-left: 0%;
 }

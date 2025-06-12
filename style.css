@@ -1,7 +1,6 @@
 *{
   margin: 0;padding: 0;
   font-family: "Roboto";
-
 }
 
 .AB{background-image: url(IMAGES/pinnacle.avif);
@@ -10,42 +9,42 @@ background-size:cover;
 background-position: center; 
 background-blend-mode: darken;
 background-color:rgba(0, 0, 0, 0.87);
-height: 700px;
+height: 500px;
 }
 body{
-  background-color:bisque
+  width: 100%;
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .navbar h2{
   font-size: xx-large;
-color: bisque;
+color: cornflowerblue;
 padding-right: 400px 
 }
 .navbar a{
      text-decoration: none;
-    color: bisque;
+    color: white;
     padding: 10px;
     font-weight: bolder;
 }
 .navbar a:hover{
-    background-color: mediumpurple;
+  color:midnightblue;
     border-radius: 5px;
  }
 .nav2 a{
-    background-color: midnightblue;
+    background-color: rgb(32, 77, 161);
     margin-inline-start: 20px;
     border-radius: 10px;
-    border: 2px solid bisque;
+    border: 2px solid midnightblue;
 }
 .heading{
-  color: bisque;
+  color: cornflowerblue;
   font-size: 30px;
   text-align: center;
   margin-top: 80px;
@@ -53,19 +52,15 @@ padding-right: 400px
 }
 
 .container1{
-    color: bisque;
+    color: white;
     width: 60%;
     text-align: center;
     padding-left: 20%;
 }
 
-.container1 p{
-  color: grey;
-}
-
 span{
-  color: midnightblue;
-  font-size: 100px;
+  color: white;
+  font-size: 40px;
 }
 ul{
   display: grid;
@@ -74,15 +69,18 @@ ul{
   padding: 30px;
   width: 700px;
   margin-left: 22%;
-  margin-top: 30px;
+  margin-top: 5px;
   color: midnightblue;
-  font-size: x-large;
+  font-size:22px;
+}
+li{
+  margin-right: 5px;
 }
 .container3{
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-left: 10px;
-  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 .container3 div{
@@ -100,7 +98,7 @@ background-color: rgba(0, 0, 0, 0.74);
    border-radius: 10px;
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
-    color: bisque;
+    color: white;
 }
 .img1{
   background-image: url(IMAGES/img1.avif);
@@ -112,16 +110,17 @@ background-color: rgba(0, 0, 0, 0.74);
   background-image: url(IMAGES/tgfh.jpg);
 }
 .container4{
-  margin-left: 10px;
-  color:midnightblue;
+  margin-left: 45px;
+  color:white;
   margin-bottom: 50px;
 }
 .container4 h1{
-  font-size: 55px;
+  font-size: 35px;
+  color: midnightblue;
   font-style: italic;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 .content{
   display: grid;
@@ -130,7 +129,7 @@ background-color: rgba(0, 0, 0, 0.74);
 }
 .content div{
   width: 350px;
-  background-color: thistle;
+  background-color: #061636;
   border-radius: 10px;
   box-shadow: 0px 5px 10px;
 }
@@ -150,14 +149,14 @@ text-align: center;
   margin-bottom: 10px;
 }
 .content a{
-  color: brown;
+  color: cornflowerblue;
   text-decoration: none;
 }
 p{font-size: larger;}
 
 footer{
-  background-color: thistle;
-  color: midnightblue;
+  background-color: #061636;
+  color: white;
   padding: 20px;
   padding-bottom: 0;
 }
@@ -166,14 +165,14 @@ footer{
   justify-content: space-around;
 }
 .container5 a:hover{
-    background-color: mediumpurple;
+    color: midnightblue;
     border-radius: 5px;
     padding: 0px;
-    border: 2px solid blue;
  }
 .container5 a{
   text-decoration: none;
   font-size: larger;
+  color: white;
 }
 .icons a{
 padding:5px;
@@ -182,6 +181,7 @@ padding:5px;
 font-size:30px;
 }
  .buttom{
+  font-size: 12px;
   margin-top: 25px;
   margin-left: 30%;
 }
@@ -190,13 +190,15 @@ font-size:30px;
 
 @media screen and (max-width:768px)
 {
- *{margin: 0;padding: 0;}
+ *{margin: 0;
+  padding: 0;
+}
    .navbar{
      display :grid;
      row-gap: 25px;
     font-size: 12px;
     padding-top: 15px;
-  margin-left: -40px;
+  margin-left: -25px;
    }
    .nav2 {
     margin-left: -13px;
@@ -227,20 +229,21 @@ font-size:30px;
    }
    .container3{
   display: block;
-  margin-left: 3px;
+  margin-left: -15px;
   margin-top: 0px;
-  max-width: 100px;
 
   }
   .container4 h1{
-  font-size: 35px;
+  font-size: 25px;
   margin-top: 30px;
   margin-bottom: 20px;
+  margin-left: -30px;
   width: 99%;
 }
 .content{
   display: block;
-  margin-left: 10px;
+  width: 98%;
+  margin-left: -40px;
 }
 .content div{
   margin-bottom: 30px;
@@ -262,7 +265,8 @@ height: 630px;
 font-size: 20px;
 }
 .buttom{
-  font-size: medium;
+  font-size: 10px;
+  padding-bottom: 10px;
    margin-top: 10px;
   margin-left: 0%;
 }

@@ -1,31 +1,35 @@
-*{padding: 0;margin: 0;}
-
-body{
-  background-color: bisque;
+*{padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+header{
+  background-color: #061636;
 }
  .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
+    padding-top: 20px;
 }
+
 .navbar h2{
   font-size: xx-large;
-color: midnightblue;
+color: cornflowerblue;
 padding-right: 400px 
-}
-.navbar a:hover{
-    background-color: mediumpurple;
-    border-radius: 5px;
 }
 .navbar a{
      text-decoration: none;
-    color: midnightblue;
+    color: white;
     padding: 10px;
     font-weight: bolder;
 }
+.navbar a:hover{
+  color:midnightblue;
+    border-radius: 5px;
+ }
 .nav2 a{
-    background-color: cornflowerblue;
+    background-color: rgb(32, 77, 161);
     margin-inline-start: 20px;
     border-radius: 10px;
     border: 2px solid midnightblue;
@@ -39,11 +43,10 @@ padding-right: 400px
 .container1 div{
   display: flex;
   width: 90%;
-  margin: 20px;
 }
 .container1 p{
   font-size: larger;
-  margin: 20px;
+  margin: 5px;
   color: midnightblue;
 }
 li{
@@ -60,22 +63,24 @@ li{
 li p{
   width: 40%;
   margin: 30px;
-  font-size: x-large;
+  font-size: 22px;
 }
 .container1 h1{
-  font-size: 60px;
+  font-size: 35px;
   color: midnightblue;
   text-align: center;
+  margin-top: 20px;
 }
 
 .container2 h2{
-  font-size: 40px;
-  margin: 40px;
+  font-size: 30px;
+  margin: 30px;
   color: midnightblue;
 }
+
 footer{
-  background-color: thistle;
-  color: midnightblue;
+  background-color: #061636;
+  color: white;
   padding: 20px;
   padding-bottom: 0;
 }
@@ -84,14 +89,14 @@ footer{
   justify-content: space-around;
 }
 .container5 a:hover{
-    background-color: mediumpurple;
+    color: midnightblue;
     border-radius: 5px;
     padding: 0px;
-    border: 2px solid blue;
  }
 .container5 a{
   text-decoration: none;
   font-size: larger;
+  color: white;
 }
 .icons a{
 padding:5px;
@@ -100,6 +105,7 @@ padding:5px;
 font-size:30px;
 }
  .buttom{
+  font-size: 12px;
   margin-top: 25px;
   margin-left: 30%;
 }
@@ -112,7 +118,7 @@ font-size:30px;
      row-gap: 25px;
     font-size: 12px;
     padding-top: 15px;
-  margin-left: -40px;
+  margin-left: -25px;
    }
    .nav2 {
     margin-left: -13px;
@@ -172,7 +178,8 @@ height: 630px;
 font-size: 20px;
 }
 .buttom{
-  font-size: medium;
+   font-size: 10px;
+  padding-bottom: 10px;
    margin-top: 10px;
   margin-left: 0%;
 }
