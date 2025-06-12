@@ -229,7 +229,7 @@ font-size:30px;
    }
    .container3{
   display: block;
-  margin-left: -15px;
+  margin-left: 0px;
   margin-top: 0px;
 
   }
@@ -243,7 +243,7 @@ font-size:30px;
 .content{
   display: block;
   width: 98%;
-  margin-left: -40px;
+  margin-left: -25px;
 }
 .content div{
   margin-bottom: 30px;
